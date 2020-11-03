@@ -10,8 +10,12 @@ public class MainPersonne {
 		// Creation d'une personne avec le 2eme constructeur
 		Personne personne2 = new Personne("Bond", "James");
 		
-		System.out.println("Nom est: " + personne1.getNom() + ", Prenom est: " + personne1.getPrenom() + ", age " + personne1.getAge());
-		System.out.println("Nom est: " + personne2.getNom() + ", Prenom est: " + personne2.getPrenom());
+		System.out.println("Nom est: " + personne1.getNom() + ", Prenom est: " + personne1.getPrenom() + 
+				", il y a " + personne1.getAge() + " ans");
+		
+		personne2.setAge(90); // pour ajouter la age de personne
+		System.out.println("Nom est: " + personne2.getNom() + ", Prenom est: " + personne2.getPrenom() +
+				", il y a " + personne2.getAge() + " ans");
 	}
 
 }
