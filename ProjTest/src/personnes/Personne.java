@@ -15,30 +15,15 @@ public class Personne {
 		age = agePersonne;
 	}
 	
-	// Getters et Setters
-	public String getNom() {
-		return nom;
+	public Personne(String nomPersonne, String prenomPersonne, int agePersonne) {
+		
+		nom = nomPersonne;
+		prenom = prenomPersonne;
+		age = agePersonne;
 	}
+	
+	
 
-	public void setNom(String nom) {
-		this.nom = nom;
-	}
-
-	public String getPrenom() {
-		return prenom;
-	}
-
-	public void setPrenom(String prenom) {
-		this.prenom = prenom;
-	}
-
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
 	
 	
 
