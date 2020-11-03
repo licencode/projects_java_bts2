@@ -8,9 +8,27 @@ public class Compte {
 	
 	// Constructeurs
 	
+	public Compte () {
+		numCompte = 0;
+		solde = 0;
+		
+	}
+	
 	public Compte (int num, float soldeInit) {
 		numCompte = 0;
 		solde = soldeInit;
+		
+	}
+	
+	public Compte (int num) {
+		numCompte = num;
+		solde = 0;
+		
+	}
+	
+	public Compte (float somme) {
+		numCompte = 0;
+		solde = somme;
 		
 	}
 	
