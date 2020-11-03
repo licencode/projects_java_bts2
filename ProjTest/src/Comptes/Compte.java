@@ -8,25 +8,25 @@ public class Compte {
 	
 	// Constructeurs
 	
-	public Compte () {
+	public Compte () { // Si tout les methodes vide
 		numCompte = 0;
 		solde = 0;
 		
 	}
 	
-	public Compte (int num, float soldeInit) {
-		numCompte = 0;
+	public Compte (int num, float soldeInit) { // Si tout les mothodes choisir
+		numCompte = num;
 		solde = soldeInit;
 		
 	}
 	
-	public Compte (int num) {
+	public Compte (int num) { // Si int est compte
 		numCompte = num;
 		solde = 0;
 		
 	}
 	
-	public Compte (float somme) {
+	public Compte (float somme) { // Si float est solde
 		numCompte = 0;
 		solde = somme;
 		
@@ -42,7 +42,7 @@ public class Compte {
 	}
 	
 	public void consulter() {
-		System.out.println("Le solde du compte" + numCompte + " est de " + solde);
+		System.out.println("Le solde du compte " + numCompte + " est de " + solde);
 	}
 
 }
