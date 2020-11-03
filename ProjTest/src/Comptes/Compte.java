@@ -66,4 +66,12 @@ public class Compte {
 		return solde;
 	}
 
+	// Setters
+	public void setSolde(float newSolde) { // Method pour change la solde
+		solde = newSolde;
+	}
+	public void addSomme(float sommeAdd) {  // Method pour ajouter la somme pour la solde
+		solde = solde + sommeAdd;
+	}
+	
 }

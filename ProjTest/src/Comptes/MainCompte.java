@@ -27,6 +27,14 @@ public class MainCompte {
 		
 		System.out.println("Solde : " + cpt1.donneMoiTonSolde());
 		System.out.println("Solde : " + cpt2.getSolde());
+		
+		cpt2.setSolde(400.4f);
+		System.out.println("Solde : " + cpt2.getSolde());
+
+		cpt2.addSomme(200.5f);
+		System.out.println("Solde : " + cpt2.getSolde());
+
 	}
+
 
 }
