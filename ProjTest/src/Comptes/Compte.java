@@ -6,6 +6,14 @@ public class Compte {
 	private int numCompte;
 	private float solde;
 	
+	// Constructeurs
+	
+	public Compte () {
+		numCompte = 0;
+		solde = 0;
+		
+	}
+	
 	// Methodes
 	public void crediter(float somme) {
 		solde = solde + somme;
