@@ -42,7 +42,7 @@ public class Compte {
 	}
 	
 	public void consulter() {
-		System.out.println("Le solde est de " + solde);
+		System.out.println("Le solde du compte" + numCompte + " est de " + solde);
 	}
 
 }
