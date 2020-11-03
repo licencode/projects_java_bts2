@@ -11,9 +11,18 @@ public class MainCompte {
 		Compte cpt2 = new Compte(1,200.5f);
 
 		// Operation sur les comptes 
+		System.out.println("cpt1");
 		cpt1.consulter();
+		System.out.println("cpt2");
 		cpt2.consulter();
 		
+		cpt1.crediter(100);
+		cpt2.debiter(50);
+		
+		System.out.println("cpt1");
+		cpt1.consulter();
+		System.out.println("cpt2");
+		cpt2.consulter();
 	}
 
 }
