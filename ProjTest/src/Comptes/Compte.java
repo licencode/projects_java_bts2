@@ -2,6 +2,7 @@ package Comptes;
 
 public class Compte {
 	
+	
 	// Attributs
 	private int numCompte;
 	private float solde;
@@ -43,6 +44,26 @@ public class Compte {
 	
 	public void consulter() {
 		System.out.println("Le solde du compte " + numCompte + " est de " + solde);
+	}
+	
+	
+	// Getters
+	public int donneMoiTonNumCompte() {
+		return numCompte;
+	}
+	
+	
+	public int getNumCompte() {
+		return numCompte;
+	}
+	
+	public float donneMoiTonSolde() {
+		return solde;
+	}
+	
+	
+	public float getSolde() {
+		return solde;
 	}
 
 }
