@@ -21,6 +21,12 @@ public class MainCompte {
 		
 		cpt1.consulter();
 		cpt2.consulter();
+		
+		System.out.println("Num Compte: " + cpt1.donneMoiTonNumCompte());
+		System.out.println("Num Compte: " + cpt2.getNumCompte());
+		
+		System.out.println("Solde : " + cpt1.donneMoiTonSolde());
+		System.out.println("Solde : " + cpt2.getSolde());
 	}
 
 }
