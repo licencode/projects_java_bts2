@@ -15,11 +15,10 @@ public class Personne {
 		age = agePersonne;
 	}
 	
-	public Personne(String nomPersonne, String prenomPersonne, int agePersonne) {
+	public Personne(String nomPersonne, String prenomPersonne) {
 		
-		nom = nomPersonne;
-		prenom = prenomPersonne;
-		age = agePersonne;
+		this.nom = nomPersonne;
+		this.prenom = prenomPersonne;
 	}
 	
 	
