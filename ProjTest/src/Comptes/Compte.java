@@ -8,9 +8,9 @@ public class Compte {
 	
 	// Constructeurs
 	
-	public Compte () {
+	public Compte (int num, float soldeInit) {
 		numCompte = 0;
-		solde = 0;
+		solde = soldeInit;
 		
 	}
 	
